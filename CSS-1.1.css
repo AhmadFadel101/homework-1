@@ -1,0 +1,32 @@
+body {
+    text-align:center;
+    color:black;
+    background:aqua
+    
+}
+table { 
+	border-collapse: 	collapse;
+}
+table, tr, td, th { 
+	padding: 			15px; 
+	border:				solid 1px black;
+	padding: 30px;
+    text-align: left;
+}
+tr {
+	vertical-align: 	top;
+}
+th {
+	background-color: 	lightblue;
+	color: 				black;
+}
+tr:nth-child(odd)			{ background-color: lightblue; }
+tr:nth-child(even)		{ background-color: lightgrey; }
+ul {
+	list-style-position:inside; 
+	text-align:center;
+}
+ol {
+	list-style-position:inside; 
+	text-align:center;
+}
